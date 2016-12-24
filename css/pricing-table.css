@@ -1,0 +1,48 @@
+.pricing-table
+{
+    border: solid 1px #ddd;
+}
+
+.pricing-table li
+{
+    font-size: .75rem;
+
+    padding: .875rem 1.125rem;
+
+    border-bottom: dotted 1px #ddd;
+}
+
+.pricing-table li:last-child
+{
+    border-bottom: 0;
+}
+
+.pricing-table .title
+{
+    font-size: .875rem;
+
+    color: #eee;
+    border-bottom: 0;
+    background-color: #333;
+}
+
+.pricing-table .price
+{
+    font-size: 1.75rem;
+
+    color: #333;
+    border-bottom: 0;
+    background-color: #f6f6f6;
+}
+
+.pricing-table .description
+{
+    font-size: .625rem;
+
+    color: #777;
+}
+
+.pricing-table .button
+{
+    margin: 0;
+}
